@@ -31,11 +31,13 @@ function createPetals() {
         img.src = petalData.path;
         img.alt = `Pétalo ${i+1}`;
         
-        // Aplicar filtros de color en lugar de sombras
+        // Aplicar filtros para hacer la rosa negra con tinte rojizo/púrpura
         img.style.filter = `
-            brightness(1.4)
-            contrast(1.3)
-            saturate(1.2)
+            brightness(0.15)
+            contrast(1.4)
+            saturate(0.2)
+            sepia(0.3)
+            hue-rotate(300deg)
         `;
         
         petal.appendChild(img);
