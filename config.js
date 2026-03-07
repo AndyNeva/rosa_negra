@@ -3,7 +3,7 @@
  */
 
 // Tiempo entre caída de pétalos (en milisegundos)
-const TIEMPO_ENTRE_PETALOS = 5000; 
+const TIEMPO_ENTRE_PETALOS = 15000; 
 
 // Posición de la luz (corresponde con el CSS)
 const LIGHT_POSITION = {
